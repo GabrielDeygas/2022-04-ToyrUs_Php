@@ -1,0 +1,153 @@
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container-li-home {
+    display: flex;
+}
+
+.li-home-price {
+    text-align: center;
+    padding: 10px;
+}
+
+.ul-toyslist {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.list-home-li {
+    display: flex;
+    flex: 1;
+    max-width: 210px;
+    margin: 20px;
+}
+
+.list-home-li a {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.list-home-h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    font-size: .8rem;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    min-height: 50px;
+}
+
+.toyslist-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.main-li-img {
+    display: flex;
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    order: -1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.details-li-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-li  {
+    display: flex;
+}
+
+.details-li-global-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.details-container-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.details-li-container1 {
+    width: 35%;
+}
+
+.details-img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.details-li-container2 {
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-li-container2 p {
+    padding: 10px;
+}
+
+.details-h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.detail-price {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.detail-form {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.details-stock {
+    text-align: center;
+}
+
+.list-form {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+select {
+    margin: 0 5px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 2px 5px;
+    border-radius: 1rem;
+}
+
+button a:hover {
+    cursor: pointer;
+}
+
